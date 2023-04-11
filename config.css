@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@700&display=swap');
+
+:root{
+  --clr-orange: hsl(31, 77%, 52%);
+  --clr-cyan-700: hsl(184, 100%, 22%);
+  --clr-cyan-900: hsl(179, 100%, 13%);
+
+  --clr-neutral-white: hsla(0, 0%, 100%, 0.75);
+  --clr-neutral-gray: hsl(0, 0%, 95%);
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --ff-header: 'Big Shoulders Display', sans-serif;
+  --ff-body: 'Lexend Deca', sans-serif;
+}

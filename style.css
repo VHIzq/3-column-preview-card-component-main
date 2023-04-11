@@ -1,0 +1,77 @@
+@import url(reset.css);
+@import url(config.css);
+
+body {
+  background-color: var(--clr-neutral-gray);
+  display: grid;
+  place-items: center;
+}
+
+.preview {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 1rem;
+  justify-content: center;
+}
+
+@media (min-width: 800px) {
+  .preview {
+    flex-direction: row;
+    max-width: 800px;
+    position: relative;
+    top: 25vh;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  gap: 2rem;
+}
+
+.card h2 {
+  font-size: 3rem;
+  font-family: var(--ff-header);
+  font-weight: var(--fw-400);
+  color: var(--clr-neutral-white);
+  text-transform: uppercase;
+}
+
+.card p {
+  color: var(--clr-neutral-grayg);
+  font-family: var(--ff-header);
+  line-height: 25px;
+  font-style: normal;
+}
+
+.card button {
+  border-radius: 100vh;
+  border: none;
+  color: var(--clr-orange);
+  font-size: 1rem;
+  width: 150px;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.card button:hover {
+  color: var(--clr-neutral-white);
+  background: none;
+  border: 2px solid var(--clr-neutral-white);
+}
+
+.card:nth-child(1) {
+  background-color: var(--clr-orange);
+}
+
+.card:nth-child(2) {
+  background-color: var(--clr-cyan-700);
+}
+
+.card:nth-child(3) {
+  background-color: var(--clr-cyan-900);
+}
