@@ -42,8 +42,8 @@ body {
 }
 
 .card p {
-  color: var(--clr-neutral-grayg);
-  font-family: var(--ff-header);
+  color: var(--clr-neutral-gray);
+  font-family: sans-serif;
   line-height: 25px;
   font-style: normal;
 }
